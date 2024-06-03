@@ -1,547 +1,953 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../assets/img/apple-icon.png"
+    />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+    <title>Bre Consulting</title>
+    <!--     Fonts and icons     -->
+    <!--     Fonts and icons     -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700"
+    />
+    <!-- Nucleo Icons -->
+    <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/42d5adcbca.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <!-- CSS Files -->
+    <link
+      id="pagestyle"
+      href="./assets/css/material-kit.css?v=3.0.4"
+      rel="stylesheet"
+    />
+    <!-- Nepcha Analytics (nepcha.com) -->
+    <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
+    <script
+      defer
+      data-site="YOUR_DOMAIN_HERE"
+      src="https://api.nepcha.com/js/nepcha-analytics.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
-  <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
-  <title>Bre Consulting</title>
-  <!--     Fonts and icons     -->
-  <!--     Fonts and icons     -->
-  <link rel="stylesheet" type="text/css"
-    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
-  <!-- Nucleo Icons -->
-  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-  <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-  <!-- Material Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
-  <!-- CSS Files -->
-  <link id="pagestyle" href="./assets/css/material-kit.css?v=3.0.4" rel="stylesheet" />
-  <!-- Nepcha Analytics (nepcha.com) -->
-  <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
-  <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-</head>
-
-<body class="about-us bg-gray-200">
-  <!-- Navbar Transparent -->
-  <div class="container position-sticky z-index-sticky top-0">
-    <div class="row">
-      <div class="col-12">
-        <nav
-          class="navbar navbar-expand-lg blur border-radius-xl mt-4 top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
-          <div class="container-fluid px-0">
-            <a class="navbar-brand font-weight-bolder ms-sm-3" href="https://www.breconsulting.co.za">
-              Bre Consulting
-            </a>
-            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon mt-2">
-                <span class="navbar-toggler-bar bar1"></span>
-                <span class="navbar-toggler-bar bar2"></span>
-                <span class="navbar-toggler-bar bar3"></span>
-              </span>
-            </button>
-            <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
-              <ul class="navbar-nav navbar-nav-hover ms-auto">
-                <li class="nav-item my-auto ms-3 ms-lg-0">
-                  <a href="#" class="btn btn-sm btn-outline-info mb-0 me-1 mt-2 mt-md-0">home</a>
-                </li>
-                <li class="nav-item my-auto ms-3 ms-lg-0">
-                  <a href="services.html" class="btn btn-sm bg-gradient-info mb-0 me-1 mt-2 mt-md-0">Services</a>
-                </li>
-                <li class="nav-item my-auto ms-3 ms-lg-0">
-                  <a href="about-us.html" class="btn btn-sm bg-gradient-info mb-0 me-1 mt-2 mt-md-0">About Us</a>
-                </li>
-                <li class="nav-item my-auto ms-3 ms-lg-0">
-                    <a href="blog.html" class="btn btn-sm bg-gradient-info mb-0 me-1 mt-2 mt-md-0" style="display:none">Blog</a>
-                </li>
-                <li class="nav-item my-auto ms-3 ms-lg-0">
-                  <a href="contact-us.html" class="btn btn-sm bg-gradient-info mb-0 me-1 mt-2 mt-md-0">Contact Us</a>
-                </li>
-              </ul>
+  <body class="about-us bg-gray-200">
+    <!-- Navbar Transparent -->
+    <div class="container position-sticky z-index-sticky top-0">
+      <div class="row">
+        <div class="col-12">
+          <nav
+            class="navbar navbar-expand-lg blur border-radius-xl mt-4 top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4"
+          >
+            <div class="container-fluid px-0">
+              <a
+                class="navbar-brand font-weight-bolder ms-sm-3"
+                href="https://www.breconsulting.co.za"
+              >
+                Bre Consulting
+              </a>
+              <button
+                class="navbar-toggler shadow-none ms-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navigation"
+                aria-controls="navigation"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon mt-2">
+                  <span class="navbar-toggler-bar bar1"></span>
+                  <span class="navbar-toggler-bar bar2"></span>
+                  <span class="navbar-toggler-bar bar3"></span>
+                </span>
+              </button>
+              <div
+                class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100"
+                id="navigation"
+              >
+                <ul class="navbar-nav navbar-nav-hover ms-auto">
+                  <li class="nav-item my-auto ms-3 ms-lg-0">
+                    <a
+                      href="#"
+                      class="btn btn-sm btn-outline-info mb-0 me-1 mt-2 mt-md-0"
+                      >home</a
+                    >
+                  </li>
+                  <li class="nav-item my-auto ms-3 ms-lg-0">
+                    <a
+                      href="services.html"
+                      class="btn btn-sm bg-gradient-info mb-0 me-1 mt-2 mt-md-0"
+                      >Services</a
+                    >
+                  </li>
+                  <li class="nav-item my-auto ms-3 ms-lg-0">
+                    <a
+                      href="about-us.html"
+                      class="btn btn-sm bg-gradient-info mb-0 me-1 mt-2 mt-md-0"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="nav-item my-auto ms-3 ms-lg-0">
+                    <a
+                      href="blog.html"
+                      class="btn btn-sm bg-gradient-info mb-0 me-1 mt-2 mt-md-0"
+                      style="display: none"
+                      >Blog</a
+                    >
+                  </li>
+                  <li class="nav-item my-auto ms-3 ms-lg-0">
+                    <a
+                      href="contact-us.html"
+                      class="btn btn-sm bg-gradient-info mb-0 me-1 mt-2 mt-md-0"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </nav>
-        <!-- End Navbar -->
+          </nav>
+          <!-- End Navbar -->
+        </div>
       </div>
     </div>
-  </div>
-  <!-- End Navbar -->
-  <!-- -------- START HEADER 7 w/ text and video 
+    <!-- End Navbar -->
+    <!-- -------- START HEADER 7 w/ text and video 
       ------- -->
 
-  <header class="bg-gradient-dark">
-    <div class="page-header min-vh-75" style="background-image: url('./assets/img/homeLandingpng.png')" loading="lazy">
-      <span class="mask bg-gradient-dark opacity-5"></span>
+    <header class="bg-gradient-dark">
+      <div
+        class="page-header min-vh-75"
+        style="background-image: url('./assets/img/homeLandingpng.png')"
+        loading="lazy"
+      >
+        <span class="mask bg-gradient-dark opacity-5"></span>
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-6 col-md-7 d-flex justify-content-center flex-column"
+            >
+              <h1 class="text-white mb-4 tracking-in-contract-bck">
+                Bre Consulting
+              </h1>
+
+              <p class="text-white opacity-8 lead pe-5 me-5">
+                A New generation for administration!
+              </p>
+              <div class="buttons">
+                <a href="#start" class="btn btn-white mt-4"> Get Started</a>
+                <a
+                  href="contact-us.html"
+                  class="btn text-white shadow-none mt-4"
+                  >Contact Us</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- -------- END HEADER 7 w/ text and video ------- -->
+    <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6" id="start">
+      <!-- Section with four info areas left & one card right with image and waves -->
+      <!-- -------- START Features w/ icons and text on left & gradient title and text on right -------- -->
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-7 d-flex justify-content-center flex-column">
-            <h1 class="text-white mb-4 tracking-in-contract-bck">Bre Consulting</h1>
-           
-            <p class="text-white opacity-8 lead pe-5 me-5">
-              A New generation for administration!
-            </p>
-            <div class="buttons">
-             
-              <a href="#start" class="btn btn-white mt-4">  Get Started</a>
-              <a href="contact-us.html" class="btn text-white shadow-none mt-4">Contact Us</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div >
-  </header >
-  <!-- -------- END HEADER 7 w/ text and video ------- -->
-  <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6" id="start" >
-    <!-- Section with four info areas left & one card right with image and waves -->
-    <!-- -------- START Features w/ icons and text on left & gradient title and text on right -------- -->
-    <div class="container" >
-      <div class="row">
-
-        <div class="col-lg-6 mt-lg-0 mt-5 ps-lg-0 ps-0">
-          <div class="p-3 info-horizontal"  >
-            <div class="icon icon-shape bg-gradient-primary shadow-primary text-center animate__animated animate__bounce animate__bounce animate__delay-3s animate__bounce animate__repeat-1">
-              <i class="fas fa-user opacity-10 "></i>
-            </div>
-            <div class="description ps-3">
-              <p class="mb-0">
-                Welcome to BRE Consulting, where we aim to revolutionize your
-                real estate business, freeing you from time-consuming
-                administration and complexities so that you can focus on what
-                truly matters, building a profitable business.
-              </p>
-            </div>
-          </div>
-
-          <div class="p-3 info-horizontal"> 
-            <div class="icon icon-shape bg-gradient-primary shadow-primary text-center animate__animated animate__bounce animate__bounce animate__delay-4s animate__bounce animate__repeat-1">
-              <i class="fas fa-handshake opacity-10"></i>
-            </div>
-            <div class="description ps-3">
-              <p class="mb-0">
-                Think of us as your dedicated back office team ensuring
-                adherence to regulations and seamless operations. We
-                understand that while technology is essential for automation
-                and manageability, it's the people behind it that truly make a
-                difference. That's why we're dedicated to providing you with
-                the ultimate solution: a perfect blend of human expertise and
-                technological innovation.
-              </p>
-            </div>
-          </div>
-          <div class="p-3 info-horizontal">
-            <div class="icon icon-shape bg-gradient-primary shadow-primary text-center animate__animated animate__bounce animate__bounce animate__delay-5s animate__bounce animate__repeat-1" >
-              <i class="fas fa-moon opacity-10"></i>
-            </div>
-            <div class="description ps-3">
-              <p class="mb-0">
-                Imagine sleeping through the storm, knowing that your business
-                is in capable hands. With us, you will not just safeguard your
-                company's reputation and keep your investors impressed with
-                this unique value offering.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4">
-          <div class="rotating-card-container">
-            <div class="card card-rotate card-background card-background-mask-primary shadow-primary mt-md-0 mt-5">
-              <div class="front front-background"
-                style="background-image: url(https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=987&amp;q=80); background-size: cover;">
-                <div class="card-body py-7 text-center">
-                  <i class="material-icons text-white text-4xl my-3">thunderstorm</i>
-                  <h3 class="text-white">Ready to sleep<br>through an storm?</h3>
-                  <p class="text-white opacity-8">Let us take care of you administration and other nitty gritty time
-                    consuming activities</p>
-                </div>
+          <div class="col-lg-6 mt-lg-0 mt-5 ps-lg-0 ps-0">
+            <div class="p-3 info-horizontal">
+              <div
+                class="icon icon-shape bg-gradient-primary shadow-primary text-center animate__animated animate__bounce animate__bounce animate__delay-3s animate__bounce animate__repeat-1"
+              >
+                <svg
+                  width=""
+                  height=""
+                  viewBox="0 0 100 100"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="width: auto; height: auto"
+                >
+                  <style>
+                    .line-heart1 {
+                      animation: line-heart1-pulse 2s infinite;
+                      transform-origin: 50px 50px;
+                    }
+                    @keyframes line-heart1-pulse {
+                      0% {
+                        transform: scale3d(1, 1, 1);
+                      }
+                      20% {
+                        transform: scale3d(0.9, 0.9, 0.9);
+                      }
+                      35% {
+                        transform: scale3d(1, 1, 1);
+                      }
+                      50% {
+                        transform: scale3d(0.9, 0.9, 0.9);
+                      }
+                      75% {
+                        transform: scale3d(1, 1, 1);
+                      }
+                      100% {
+                        transform: scale3d(1, 1, 1);
+                      }
+                    }
+                    @media (prefers-reduced-motion: reduce) {
+                      .line-heart1 {
+                        animation: none;
+                      }
+                    }
+                  </style>
+                  <path
+                    class="line-heart1 stroke1 fill1"
+                    d="M48.1819 24.4658L48.182 24.4659L48.1821 24.466L48.9727 25.5905L49.799 24.492L49.7991 24.4919L49.7991 24.4918L49.7997 24.491L49.8034 24.4862L49.8196 24.4649C49.8343 24.4455 49.857 24.416 49.8872 24.3769C49.9476 24.2987 50.0383 24.1823 50.1572 24.0329C50.3951 23.734 50.7454 23.3031 51.1909 22.7807C52.0829 21.7347 53.3518 20.3275 54.86 18.8802C57.9232 15.9409 61.7981 13.0105 65.4225 12.3757C69.9542 11.5819 76.7167 12.4021 81.9639 15.7348C85.9753 18.2826 88.5888 21.3569 90.2121 24.9598C91.8428 28.5792 92.5 32.79 92.5 37.6407C92.5 42.2838 90.2513 47.1467 87.5986 51.2345C84.9613 55.2986 82.012 58.4644 80.7929 59.6835C70.6643 69.8121 54.2708 83.3102 49.6249 87.0957C49.2611 87.3922 48.7576 87.3889 48.3971 87.0871C43.8546 83.2839 28.0406 69.8642 18.7372 59.7149C18.5919 59.5565 18.4481 59.3996 18.3056 59.2443C14.5991 55.2024 11.8255 52.1779 9.93661 49.016C8.0088 45.789 7 42.4056 7 37.6407C7 32.7889 7.65223 28.5697 9.28036 24.9464C10.9009 21.3401 13.5134 18.2672 17.5328 15.7369C23.6572 11.8815 28.5473 11.5353 33.3269 12.3756C36.8219 12.99 40.5051 15.9039 43.4103 18.848C44.8388 20.2956 46.0352 21.7045 46.8748 22.7522C47.2941 23.2755 47.6232 23.7071 47.8464 24.0065C47.958 24.1562 48.0431 24.2727 48.0997 24.351C48.128 24.3901 48.1491 24.4197 48.1629 24.439L48.1781 24.4603L48.1814 24.465L48.1819 24.4658Z"
+                    fill="#fff"
+                    stroke="#000"
+                    stroke-width="2px"
+                    style="animation-duration: 2s"
+                  ></path>
+                </svg>
               </div>
-              <div class="back back-background"
-                style="background-image: url(https://images.unsplash.com/photo-1498889444388-e67ea62c464b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1365&amp;q=80); background-size: cover;">
-                <div class="card-body pt-7 text-center">
-                  <h3 class="text-white">Contact us</h3>
-                  <p class="text-white opacity-8"> You will save a lot of time which you can rather spend in finding new
-                    business and building relationships</p>
-                  <a href="contact-us.html" class="btn btn-white btn-sm w-50 mx-auto mt-3">Send us a mail</a>
-                </div>
+              <div class="description ps-3">
+                <p class="mb-0">
+                  Welcome to BRE Consulting, where we aim to revolutionize your
+                  real estate business, freeing you from time-consuming
+                  administration and complexities so that you can focus on what
+                  truly matters, building a profitable business.
+                </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- -------- END Features w/ icons and text on left & gradient title and text on right -------- -->
-    <!-- -------- START Features w/ 4 cols w/ title & text & link -------- -->
-
-    <section class="py-5">
-      <div class="container">
-        <h2 class="font-weight-normal text-center">
-          Why choose BRE as an partner:
-        </h2>
-        <div class="row justify-content-start py-5">
-          <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-            <h6 class="mb-2 slide-in-blurred-top">Your very own powerhouse team:</h6>
-            <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">a comprehensive back-office team comprising of the essential roles vital for
-              any rental business to flourish.</p>
-          </div>
-          <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-            <h6 class="mb-2 slide-in-blurred-top">Specialization:</h6>
-            <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">Specialized within the rental industry, our team guarantees the essential focus
-              and experience required to ensure your business operates according to best practices.</p>
-          </div>
-          <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-            <h6 class="mb-2 slide-in-blurred-top">Technology and system experts:</h6>
-            <p class="mb-2 me-4 text-sm slide-in-blurred-bottom"> In today's digital era, seizing opportunities is paramount. Our team possesses
-              experience and knowledge of all leading Sales & Rental CRM solutions making sure you are always up to
-              date. </p>
-          </div>
-          <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-            <h6 class="mb-2 slide-in-blurred-top">Reduced Operational and overhead cost: </h6>
-            <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">With our tailored services, experience and strategic partnerships. Experience
-              everything you need at a fraction of the usual expense. No more negotiations required.</p>
-
-          </div>
-          <div class="row justify-content-center py-5">
-            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-              <h6 class="mb-2 slide-in-blurred-top">more compliance and less risk: </h6>
-              <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">Keeping up with regulatory changes can be daunting, as regulatory bodies
-                tighten their oversight. With out team you stay proactive and ensure timely compliance with all
-                regulatory, FIC and audit requirements.</p>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-              <h6 class="mb-2 slide-in-blurred-top">Portfolio Growth:</h6>
-              <p class="mb-2 me-4 text-sm slide-in-blurred-bottom"> While we take care of the time consuming adminstrative tasks, you will have
-                more time and support to focus on growing your portfolio. </p>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-              <h6 class="mb-2 slide-in-blurred-top"> Investor confidence:</h6>
-              <p class="mb-2 me-4 text-sm slide-in-blurred-bottom"> With our powerhouse team your investors will have peace off mind knowing
-                that they are in good, capable hands.</p>
-            </div>
-
-          </div>
-        </div>
-    </section>
-    <!-- -------- END Features w/ 4 cols w/ title & text & link -------- -->
-    <!-- -------- END Features w/ pattern background & stats & rocket -------- -->
-    <section class="">
-      <div class="container py-5">
-        <div class="row align-items-center">
-          <div class="col-md-6 mb-md-0 mb-4 ">
-            <h3> We help solve the top 10 challenges of real estate brokers</h3>
-
-            <p ><span class="me-2 animate__animated  animate__heartBeat">&#9679;</span>Recruiting and retaining SKILLED agents & administrators</p>
-            <p><span class="me-2">&#9679;</span>Losing MANDATES due to self-management</p>
-            <p><span class="me-2">&#9679;</span>Adoption of TECHNOLOGY & SYSTEMS</p>
-            <p><span class="me-2">&#9679;</span>RISK & IMPACT of lawsuits</p>
-            <p><span class="me-2">&#9679;</span>Abiding with real estate REGULATIONS</p>
-            <p><span class="me-2">&#9679;</span>Cutting EXPENSES and unlocking additional INCOME streams</p>
-            <p><span class="me-2">&#9679;</span>Keeping COMPLIANCE up to date</p>
-            <p><span class="me-2">&#9679;</span>Time-consuming ADMINISTRATION</p>
-            <p><span class="me-2">&#9679;</span>STANDING OUT above competitors</p>
-            <p><span class="me-2">&#9679;</span>Failing to leverage on REFERALS</p>
-          </div>
-          <div class="col-md-6">
-            <div class="blur-shadow-image text-center">
-              <lottie-player src="/assets/img/illustrations/business-success.json" background="transparent"  speed="2"  style="width: auto; height: auto;" loop autoplay></lottie-player>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-   
-    <!-- END Section with four info areas left & one card right with image and waves -->
-    <!--KEEP BELOW AS CLIENT MIGHT ADD SOME STUFF-->
-    <section class="pt-3 pb-4" id="count-stats">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 mx-auto py-3">
-            <div class="row">
-              <div class="col-md-4 position-relative">
-                <div class="p-3 text-center">
-                  <h1 class="text-gradient text-primary">
-                    <span id="state1" countto="100">100</span>+
-                  </h1>
-                  <h5 class="mt-3">clients</h5>
-                  <p class="text-sm font-weight-normal">
-                    More automated and Managable
-                  </p>
-                </div>
-                <hr class="vertical dark" />
+            <div class="p-3 info-horizontal">
+              <div
+                class="icon icon-shape bg-gradient-primary shadow-primary text-center animate__animated animate__bounce animate__bounce animate__delay-4s animate__bounce animate__repeat-1"
+              >
+                <svg
+                  width=""
+                  height=""
+                  viewBox="0 0 100 100"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="width: auto; height: auto"
+                >
+                  <style>
+                    .line-clipboard1 {
+                      animation: line-clipboard1-tick 2s infinite;
+                      stroke-dasharray: 110;
+                      stroke-dashoffset: 110;
+                    }
+                    @keyframes line-clipboard1-tick {
+                      20% {
+                        stroke-dashoffset: 110;
+                      }
+                      60% {
+                        stroke-dashoffset: 0;
+                      }
+                      100% {
+                        stroke-dashoffset: 0;
+                      }
+                    }
+                    @media (prefers-reduced-motion: reduce) {
+                      .line-clipboard1 {
+                        animation: none;
+                      }
+                    }
+                  </style>
+                  <g filter="url(#filter0_ii)">
+                    <path
+                      class="fill1"
+                      d="M20 23C20 19.6863 22.6863 17 26 17H43C43 17 43 10 50 10C57 10 57 17 57 17H74C77.3137 17 80 19.6863 80 23V85C80 88.3137 77.3137 91 74 91H26C22.6863 91 20 88.3137 20 85V23Z"
+                      fill="#FFF"
+                      stroke-width="3.5px"
+                    ></path>
+                  </g>
+                  <path
+                    class="stroke1"
+                    d="M20 23C20 19.6863 22.6863 17 26 17H43C43 17 43 10 50 10C57 10 57 17 57 17H74C77.3137 17 80 19.6863 80 23V85C80 88.3137 77.3137 91 74 91H26C22.6863 91 20 88.3137 20 85V23Z"
+                    stroke="#000"
+                    stroke-width="3.5px"
+                  ></path>
+                  <path
+                    class="stroke1"
+                    d="M37.5 17V30H64V17"
+                    stroke="#000"
+                    stroke-width="3.5px"
+                  ></path>
+                  <path
+                    class="line-clipboard1 stroke2"
+                    d="M32 60L42 70L67 45"
+                    stroke="#000"
+                    stroke-width="3.5px"
+                  ></path>
+                  <defs>
+                    <filter
+                      id="filter0_ii"
+                      x="17"
+                      y="5"
+                      width="68"
+                      height="89"
+                      filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB"
+                    >
+                      <feFlood
+                        flood-opacity="0"
+                        result="BackgroundImageFix"
+                      ></feFlood>
+                      <feBlend
+                        mode="normal"
+                        in="SourceGraphic"
+                        in2="BackgroundImageFix"
+                        result="shape"
+                      ></feBlend>
+                      <feColorMatrix
+                        in="SourceAlpha"
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"
+                      ></feColorMatrix>
+                      <feOffset dx="4" dy="-4"></feOffset>
+                      <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                      <feComposite
+                        in2="hardAlpha"
+                        operator="arithmetic"
+                        k2="-1"
+                        k3="1"
+                      ></feComposite>
+                      <feColorMatrix
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"
+                      ></feColorMatrix>
+                      <feBlend
+                        mode="normal"
+                        in2="shape"
+                        result="effect1_innerShadow"
+                      ></feBlend>
+                      <feColorMatrix
+                        in="SourceAlpha"
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"
+                      ></feColorMatrix>
+                      <feOffset dx="-4" dy="4"></feOffset>
+                      <feGaussianBlur stdDeviation="1"></feGaussianBlur>
+                      <feComposite
+                        in2="hardAlpha"
+                        operator="arithmetic"
+                        k2="-1"
+                        k3="1"
+                      ></feComposite>
+                      <feColorMatrix
+                        type="matrix"
+                        values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0"
+                      ></feColorMatrix>
+                      <feBlend
+                        mode="normal"
+                        in2="effect1_innerShadow"
+                        result="effect2_innerShadow"
+                      ></feBlend>
+                    </filter>
+                  </defs>
+                </svg>
               </div>
-              <div class="col-md-4 position-relative">
-                <div class="p-3 text-center">
-                  <h1 class="text-gradient text-primary">
-                    <span id="state2" countto="70">70</span>%
-                  </h1>
-                  <h5 class="mt-3">Average Savings</h5>
-                  <p class="text-sm font-weight-normal">
-                    on Operational and Overhead Costs
-                  </p>
-                </div>
-                <hr class="vertical dark" />
+              <div class="description ps-3">
+                <p class="mb-0">
+                  Think of us as your dedicated back office team ensuring
+                  adherence to regulations and seamless operations. We
+                  understand that while technology is essential for automation
+                  and manageability, it's the people behind it that truly make a
+                  difference. That's why we're dedicated to providing you with
+                  the ultimate solution: a perfect blend of human expertise and
+                  technological innovation.
+                </p>
               </div>
-              <div class="col-md-4">
-                <div class="p-3 text-center">
-                  <h1 class="text-gradient text-primary">
-                    <span id="state3" countto="100">100</span>%
-                  </h1>
-                  <h5 class="mt-3">Qualified</h5>
-                  <p class="text-sm font-weight-normal">
-                    Expertly Experienced Team
-                  </p>
-                </div>
+            </div>
+            <div class="p-3 info-horizontal">
+              <div
+                class="icon icon-shape bg-gradient-primary shadow-primary text-center animate__animated animate__bounce animate__bounce animate__delay-5s animate__bounce animate__repeat-1"
+              >
+                <svg
+                  width=""
+                  height=""
+                  viewBox="0 0 100 100"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="width: auto; height: auto"
+                >
+                  <style>
+                    .line-grow1 {
+                      animation: line-grow1 4s -2.5s infinite;
+                      stroke-dasharray: 140;
+                      stroke-dashoffset: 140;
+                    }
+                    @keyframes line-grow1 {
+                      45% {
+                        stroke-dashoffset: 140;
+                      }
+                      90% {
+                        stroke-dashoffset: 0;
+                      }
+                      100% {
+                        stroke-dashoffset: 0;
+                      }
+                    }
+                    @media (prefers-reduced-motion: reduce) {
+                      .line-grow1 {
+                        animation: none;
+                      }
+                    }
+                  </style>
+                  <path
+                    class="fill1"
+                    d="M23.5 84.2743V88.0215C23.5 88.5738 23.9477 89.0215 24.5 89.0215H41.5463C42.0801 89.0215 42.5184 88.6079 42.5348 88.0743C42.6219 85.2424 42.7589 76.6865 41.5 71.0215C40.5674 66.8248 33.5465 61.7584 32.6044 61.0945C32.5335 61.0445 32.4714 60.9882 32.415 60.9223L23.7109 50.7676C23.5738 50.6077 23.3907 50.493 23.1836 50.4549C21.0848 50.0685 18 50.5215 18 50.5215V30.0215C18 30.0215 18 27.0215 14 27.0215C10 27.0215 10 30.0215 10 30.0215V58.7688C10 58.9347 10.0413 59.098 10.1201 59.2439L23.3799 83.7991C23.4587 83.9451 23.5 84.1084 23.5 84.2743Z"
+                    fill="#fff"
+                    stroke-width="2px"
+                    style="animation-duration: 4s"
+                  ></path>
+                  <path
+                    class="stroke1"
+                    d="M18 50.5215V30.0215C18 30.0215 18 30.0215 18 30.0215C18 30.0215 18 27.0215 14 27.0215C10 27.0215 10 30.0215 10 30.0215C10 30.0215 10 30.0215 10 30.0215V58.7688C10 58.9347 10.0413 59.098 10.1201 59.2439L23.3799 83.7991C23.4587 83.9451 23.5 84.1084 23.5 84.2743V88.0215C23.5 88.5738 23.9477 89.0215 24.5 89.0215H41.5463C42.0801 89.0215 42.5184 88.6079 42.5348 88.0743C42.6219 85.2424 42.7589 76.6865 41.5 71.0215C40.5674 66.8248 33.5465 61.7584 32.6044 61.0945C32.5335 61.0445 32.4714 60.9882 32.415 60.9223L23.7109 50.7676C23.5738 50.6077 23.3907 50.493 23.1836 50.4549C21.0848 50.0685 18 50.5215 18 50.5215ZM18 50.5215C18 50.5215 16 54.5215 18 56.5215L28.5 67.5215"
+                    stroke="#000"
+                    stroke-width="2px"
+                    style="animation-duration: 4s"
+                  ></path>
+                  <path
+                    class="fill1"
+                    d="M76.088 84.2743V88.0215C76.088 88.5738 75.6403 89.0215 75.088 89.0215H58.0418C57.5079 89.0215 57.0696 88.6079 57.0532 88.0743C56.9662 85.2424 56.8291 76.6865 58.088 71.0215C59.0206 66.8248 66.0415 61.7584 66.9836 61.0945C67.0545 61.0445 67.1166 60.9882 67.1731 60.9223L75.8771 50.7676C76.0142 50.6077 76.1973 50.493 76.4044 50.4549C78.5032 50.0685 81.588 50.5215 81.588 50.5215V30.0215C81.588 30.0215 81.588 27.0215 85.588 27.0215C89.588 27.0215 89.588 30.0215 89.588 30.0215V58.7688C89.588 58.9347 89.5467 59.098 89.4679 59.2439L76.2081 83.7991C76.1293 83.9451 76.088 84.1084 76.088 84.2743Z"
+                    fill="#fff"
+                    stroke-width="2px"
+                    style="animation-duration: 4s"
+                  ></path>
+                  <path
+                    class="stroke1"
+                    d="M81.588 50.5215V30.0215C81.588 30.0215 81.588 30.0215 81.588 30.0215C81.588 30.0215 81.588 27.0215 85.588 27.0215C89.588 27.0215 89.588 30.0215 89.588 30.0215C89.588 30.0215 89.588 30.0215 89.588 30.0215V58.7688C89.588 58.9347 89.5467 59.098 89.4679 59.2439L76.2081 83.7991C76.1293 83.9451 76.088 84.1084 76.088 84.2743V88.0215C76.088 88.5738 75.6403 89.0215 75.088 89.0215H58.0418C57.5079 89.0215 57.0696 88.6079 57.0532 88.0743C56.9662 85.2424 56.8291 76.6865 58.088 71.0215C59.0206 66.8248 66.0415 61.7584 66.9836 61.0945C67.0545 61.0445 67.1166 60.9882 67.1731 60.9223L75.8771 50.7676C76.0142 50.6077 76.1973 50.493 76.4044 50.4549C78.5032 50.0685 81.588 50.5215 81.588 50.5215ZM81.588 50.5215C81.588 50.5215 83.588 54.5215 81.588 56.5215L71.088 67.5215"
+                    stroke="#000"
+                    stroke-width="2px"
+                    style="animation-duration: 4s"
+                  ></path>
+                  <g class="line-grow1" style="animation-duration: 4s">
+                    <path
+                      class="fill2"
+                      d="M60.5 55.5216C56.9783 58.1681 49.5 58.0216 49.5 58.0216C49.5 58.0216 42.0217 58.1681 38.5 55.5216C34.7995 52.7406 33 45.0216 33 45.0216C33 45.0216 38.8243 44.4657 42 46.0216C46.9627 48.4529 49.5 58.0216 49.5 58.0216V38.5216C49.5 38.5216 42.0217 38.6681 38.5 36.0216C34.7995 33.2406 33 25.5216 33 25.5216C33 25.5216 38.8573 25.3423 42 27.0216C46.729 29.5484 49.5 38.5216 49.5 38.5216V19.5216C49.5 19.5216 44.4239 20.2115 42 18.5216C39.3486 16.6731 38.5 11.0216 38.5 11.0216C38.5 11.0216 42.4041 10.9035 44.5 12.0216C47.6058 13.6784 49.5 19.5216 49.5 19.5216C49.5 19.5216 51.041 13.2781 53.5 12.0216C55.959 10.765 60.5 11.0216 60.5 11.0216C60.5 11.0216 59.3038 16.7447 56.5 18.5216C54.1675 19.9997 49.5 19.5216 49.5 19.5216V38.5216C49.5 38.5216 51.92 29.6033 56.5 27.0216C59.7719 25.1772 66 25.5216 66 25.5216C66 25.5216 64.2005 33.2406 60.5 36.0216C56.9783 38.6681 49.5 38.5216 49.5 38.5216V58.0216C49.5 58.0216 51.6885 48.5283 56.5 46.0216C59.8084 44.2979 66 45.0216 66 45.0216C66 45.0216 64.2005 52.7406 60.5 55.5216Z"
+                      fill="#fff"
+                      stroke-width="2px"
+                    ></path>
+                    <path
+                      class="stroke2"
+                      d="M49.5 70.0216V58.0216M49.5 58.0216C49.5 58.0216 56.9783 58.1681 60.5 55.5216C64.2005 52.7406 66 45.0216 66 45.0216C66 45.0216 59.8084 44.2979 56.5 46.0216C51.6885 48.5283 49.5 58.0216 49.5 58.0216ZM49.5 58.0216C49.5 58.0216 42.0217 58.1681 38.5 55.5216C34.7995 52.7406 33 45.0216 33 45.0216C33 45.0216 38.8243 44.4657 42 46.0216C46.9627 48.4529 49.5 58.0216 49.5 58.0216ZM49.5 58.0216V38.5216M49.5 38.5216C49.5 38.5216 56.9783 38.6681 60.5 36.0216C64.2005 33.2406 66 25.5216 66 25.5216C66 25.5216 59.7719 25.1772 56.5 27.0216C51.92 29.6033 49.5 38.5216 49.5 38.5216ZM49.5 38.5216C49.5 38.5216 42.0217 38.6681 38.5 36.0216C34.7995 33.2406 33 25.5216 33 25.5216C33 25.5216 38.8573 25.3423 42 27.0216C46.729 29.5484 49.5 38.5216 49.5 38.5216ZM49.5 38.5216V19.5216M49.5 19.5216C49.5 19.5216 54.1675 19.9997 56.5 18.5216C59.3038 16.7447 60.5 11.0216 60.5 11.0216C60.5 11.0216 55.959 10.765 53.5 12.0216C51.041 13.2781 49.5 19.5216 49.5 19.5216ZM49.5 19.5216C49.5 19.5216 44.4239 20.2115 42 18.5216C39.3486 16.6731 38.5 11.0216 38.5 11.0216C38.5 11.0216 42.4041 10.9035 44.5 12.0216C47.6058 13.6784 49.5 19.5216 49.5 19.5216Z"
+                      stroke="#000"
+                      stroke-width="2px"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="description ps-3">
+                <p class="mb-0">
+                  Imagine sleeping through the storm, knowing that your business
+                  is in capable hands. With us, you will not just safeguard your
+                  company's reputation and keep your investors impressed with
+                  this unique value offering.
+                </p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- -------- START PRE-FOOTER 1 w/ SUBSCRIBE BUTTON AND IMAGE ------- -->
-    <section class="">
-      <div class="container">
-        <div class="row mt-6">
-          <div class="col-lg-4 col-md-8 largecard">
-            <div class="largecard card card-plain">
-              <div class="card-body">
-                <div class="author">
-                  <div class="name">
-                    <h6 class="mb-0 font-weight-bolder">Andries</h6>
-                    <div class="stats">Managing Director (bow and arc)</div>
+          <div class="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4">
+            <div class="rotating-card-container">
+              <div
+                class="card card-rotate card-background card-background-mask-primary shadow-primary mt-md-0 mt-5"
+              >
+                <div
+                  class="front front-background"
+                  style="
+                    background-image: url(https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=987&amp;q=80);
+                    background-size: cover;
+                  "
+                >
+                  <div class="card-body py-7 text-center">
+                    <i class="material-icons text-white text-4xl my-3"
+                      >thunderstorm</i
+                    >
+                    <h3 class="text-white">
+                      Ready to sleep<br />through an storm?
+                    </h3>
+                    <p class="text-white opacity-8">
+                      Let us take care of you administration and other nitty
+                      gritty time consuming activities
+                    </p>
                   </div>
                 </div>
-                <p class="mt-4">
-                  "BRE Consulting has transformed our real estate business.
-                  Their dedicated back-office team handles all the
-                  complexities of administration and compliance, allowing us
-                  to focus on growth. The blend of human expertise and
-                  advanced technology they provide is truly unparalleled."
-                </p>
-                <div class="rating mt-3">
-                  <i class="fas fa-star" aria-hidden="true"></i>
-                  <i class="fas fa-star" aria-hidden="true"></i>
-                  <i class="fas fa-star" aria-hidden="true"></i>
-                  <i class="fas fa-star" aria-hidden="true"></i>
-                  <i class="fas fa-star" aria-hidden="true"></i>
+                <div
+                  class="back back-background"
+                  style="
+                    background-image: url(https://images.unsplash.com/photo-1498889444388-e67ea62c464b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1365&amp;q=80);
+                    background-size: cover;
+                  "
+                >
+                  <div class="card-body pt-7 text-center">
+                    <h3 class="text-white">Contact us</h3>
+                    <p class="text-white opacity-8">
+                      You will save a lot of time which you can rather spend in
+                      finding new business and building relationships
+                    </p>
+                    <a
+                      href="contact-us.html"
+                      class="btn btn-white btn-sm w-50 mx-auto mt-3"
+                      >Send us a mail</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
-          </div> 
+          </div>
+        </div>
+      </div>
 
-          <div class="col-lg-4 col-md-8 ms-md-auto largecard">
-            <div class="largecard card card-hover-effect bg-gradient-primary">
-              <div class="card-body">
-                <div class="author align-items-center">
-                  <div class="name">
-                    <h6 class="text-white mb-0 font-weight-bolder">Elaine</h6>
-                    <div class="stats text-white">
-                      Accociate Director (head of operations) (Bow & Arc)
+      <!-- -------- END Features w/ icons and text on left & gradient title and text on right -------- -->
+      <!-- -------- START Features w/ 4 cols w/ title & text & link -------- -->
+
+      <section class="py-5">
+        <div class="container">
+          <h2 class="font-weight-normal text-center">
+            Why choose BRE as an partner:
+          </h2>
+          <div class="row justify-content-start py-5">
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+              <h6 class="mb-2 slide-in-blurred-top">
+                Your very own powerhouse team:
+              </h6>
+              <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
+                a comprehensive back-office team comprising of the essential
+                roles vital for any rental business to flourish.
+              </p>
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+              <h6 class="mb-2 slide-in-blurred-top">Specialization:</h6>
+              <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
+                Specialized within the rental industry, our team guarantees the
+                essential focus and experience required to ensure your business
+                operates according to best practices.
+              </p>
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+              <h6 class="mb-2 slide-in-blurred-top">
+                Technology and system experts:
+              </h6>
+              <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
+                In today's digital era, seizing opportunities is paramount. Our
+                team possesses experience and knowledge of all leading Sales &
+                Rental CRM solutions making sure you are always up to date.
+              </p>
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+              <h6 class="mb-2 slide-in-blurred-top">
+                Reduced Operational and overhead cost:
+              </h6>
+              <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
+                With our tailored services, experience and strategic
+                partnerships. Experience everything you need at a fraction of
+                the usual expense. No more negotiations required.
+              </p>
+            </div>
+            <div class="row justify-content-center py-5">
+              <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+                <h6 class="mb-2 slide-in-blurred-top">
+                  more compliance and less risk:
+                </h6>
+                <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
+                  Keeping up with regulatory changes can be daunting, as
+                  regulatory bodies tighten their oversight. With out team you
+                  stay proactive and ensure timely compliance with all
+                  regulatory, FIC and audit requirements.
+                </p>
+              </div>
+              <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+                <h6 class="mb-2 slide-in-blurred-top">Portfolio Growth:</h6>
+                <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
+                  While we take care of the time consuming adminstrative tasks,
+                  you will have more time and support to focus on growing your
+                  portfolio.
+                </p>
+              </div>
+              <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+                <h6 class="mb-2 slide-in-blurred-top">Investor confidence:</h6>
+                <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
+                  With our powerhouse team your investors will have peace off
+                  mind knowing that they are in good, capable hands.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -------- END Features w/ 4 cols w/ title & text & link -------- -->
+      <!-- -------- END Features w/ pattern background & stats & rocket -------- -->
+      <section class="">
+        <div class="container py-5">
+          <div class="row align-items-center">
+            <div class="col-md-6 mb-md-0 mb-4">
+              <h3>
+                We help solve the top 10 challenges of real estate brokers
+              </h3>
+
+              <p>
+                <span class="me-2 animate__animated animate__heartBeat"
+                  >&#9679;</span
+                >Recruiting and retaining SKILLED agents & administrators
+              </p>
+              <p>
+                <span class="me-2">&#9679;</span>Losing MANDATES due to
+                self-management
+              </p>
+              <p>
+                <span class="me-2">&#9679;</span>Adoption of TECHNOLOGY &
+                SYSTEMS
+              </p>
+              <p><span class="me-2">&#9679;</span>RISK & IMPACT of lawsuits</p>
+              <p>
+                <span class="me-2">&#9679;</span>Abiding with real estate
+                REGULATIONS
+              </p>
+              <p>
+                <span class="me-2">&#9679;</span>Cutting EXPENSES and unlocking
+                additional INCOME streams
+              </p>
+              <p>
+                <span class="me-2">&#9679;</span>Keeping COMPLIANCE up to date
+              </p>
+              <p>
+                <span class="me-2">&#9679;</span>Time-consuming ADMINISTRATION
+              </p>
+              <p>
+                <span class="me-2">&#9679;</span>STANDING OUT above competitors
+              </p>
+              <p>
+                <span class="me-2">&#9679;</span>Failing to leverage on REFERALS
+              </p>
+            </div>
+            <div class="col-md-6">
+              <div class="blur-shadow-image text-center">
+                <lottie-player
+                  src="/assets/img/illustrations/business-success.json"
+                  background="transparent"
+                  speed="2"
+                  style="width: auto; height: auto"
+                  loop
+                  autoplay
+                ></lottie-player>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- END Section with four info areas left & one card right with image and waves -->
+      <!--KEEP BELOW AS CLIENT MIGHT ADD SOME STUFF-->
+      <section class="pt-3 pb-4" id="count-stats">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 mx-auto py-3">
+              <div class="row">
+                <div class="col-md-4 position-relative">
+                  <div class="p-3 text-center">
+                    <h1 class="text-gradient text-primary">
+                      <span id="state1" countto="100">100</span>+
+                    </h1>
+                    <h5 class="mt-3">clients</h5>
+                    <p class="text-sm font-weight-normal">
+                      More automated and Managable
+                    </p>
+                  </div>
+                  <hr class="vertical dark" />
+                </div>
+                <div class="col-md-4 position-relative">
+                  <div class="p-3 text-center">
+                    <h1 class="text-gradient text-primary">
+                      <span id="state2" countto="70">70</span>%
+                    </h1>
+                    <h5 class="mt-3">Average Savings</h5>
+                    <p class="text-sm font-weight-normal">
+                      on Operational and Overhead Costs
+                    </p>
+                  </div>
+                  <hr class="vertical dark" />
+                </div>
+                <div class="col-md-4">
+                  <div class="p-3 text-center">
+                    <h1 class="text-gradient text-primary">
+                      <span id="state3" countto="100">100</span>%
+                    </h1>
+                    <h5 class="mt-3">Qualified</h5>
+                    <p class="text-sm font-weight-normal">
+                      Expertly Experienced Team
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -------- START PRE-FOOTER 1 w/ SUBSCRIBE BUTTON AND IMAGE ------- -->
+      <section class="">
+        <div class="container">
+          <div class="row mt-6">
+            <div class="col-lg-4 col-md-8 largecard">
+              <div class="largecard card card-plain">
+                <div class="card-body">
+                  <div class="author">
+                    <div class="name">
+                      <h6 class="mb-0 font-weight-bolder">Andries</h6>
+                      <div class="stats">Managing Director (bow and arc)</div>
                     </div>
                   </div>
-                </div>
-                <p class="mt-4 text-white">
-                  "Partnering with BRE Consulting was the best decision for
-                  our rental business. Their specialization in the industry
-                  and mastery of CRM solutions have significantly reduced our
-                  operational costs and streamlined our processes. We now have
-                  more time to focus on expanding our portfolio and impressing
-                  our investors."
-                </p>
-                <div class="rating mt-3">
-                  <i class="fas fa-star text-white" aria-hidden="true"></i>
-                  <i class="fas fa-star text-white" aria-hidden="true"></i>
-                  <i class="fas fa-star text-white" aria-hidden="true"></i>
-                  <i class="fas fa-star text-white" aria-hidden="true"></i>
-                  <i class="fas fa-star text-white" aria-hidden="true"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-8 largecard">
-            <div class="largecard card card-plain">
-              <div class="card-body">
-                <div class="author">
-                  <div class="name">
-                    <h6 class="mb-0 font-weight-bolder">Wayne</h6>
-                    <div class="stats">(Principle) Premium Homes</div>
+                  <p class="mt-4">
+                    "BRE Consulting has transformed our real estate business.
+                    Their dedicated back-office team handles all the
+                    complexities of administration and compliance, allowing us
+                    to focus on growth. The blend of human expertise and
+                    advanced technology they provide is truly unparalleled."
+                  </p>
+                  <div class="rating mt-3">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
                   </div>
                 </div>
-                <p class="mt-4">
-                  "Thanks to BRE Consulting, keeping up with regulatory
-                  changes and ensuring compliance is no longer a burden. Their
-                  powerhouse team has given us peace of mind and confidence in
-                  our operations, which has been invaluable for maintaining
-                  investor trust and growing our business."
-                </p>
-                <div class="rating mt-3">
-                  <i class="fas fa-star" aria-hidden="true"></i>
-                  <i class="fas fa-star" aria-hidden="true"></i>
-                  <i class="fas fa-star" aria-hidden="true"></i>
-                  <i class="fas fa-star" aria-hidden="true"></i>
-                  <i class="fas fa-star" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-8 ms-md-auto largecard">
+              <div class="largecard card card-hover-effect bg-gradient-primary">
+                <div class="card-body">
+                  <div class="author align-items-center">
+                    <div class="name">
+                      <h6 class="text-white mb-0 font-weight-bolder">Elaine</h6>
+                      <div class="stats text-white">
+                        Accociate Director (head of operations) (Bow & Arc)
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-4 text-white">
+                    "Partnering with BRE Consulting was the best decision for
+                    our rental business. Their specialization in the industry
+                    and mastery of CRM solutions have significantly reduced our
+                    operational costs and streamlined our processes. We now have
+                    more time to focus on expanding our portfolio and impressing
+                    our investors."
+                  </p>
+                  <div class="rating mt-3">
+                    <i class="fas fa-star text-white" aria-hidden="true"></i>
+                    <i class="fas fa-star text-white" aria-hidden="true"></i>
+                    <i class="fas fa-star text-white" aria-hidden="true"></i>
+                    <i class="fas fa-star text-white" aria-hidden="true"></i>
+                    <i class="fas fa-star text-white" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-8 largecard">
+              <div class="largecard card card-plain">
+                <div class="card-body">
+                  <div class="author">
+                    <div class="name">
+                      <h6 class="mb-0 font-weight-bolder">Wayne</h6>
+                      <div class="stats">(Principle) Premium Homes</div>
+                    </div>
+                  </div>
+                  <p class="mt-4">
+                    "Thanks to BRE Consulting, keeping up with regulatory
+                    changes and ensuring compliance is no longer a burden. Their
+                    powerhouse team has given us peace of mind and confidence in
+                    our operations, which has been invaluable for maintaining
+                    investor trust and growing our business."
+                  </p>
+                  <div class="rating mt-3">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- -------- END PRE-FOOTER 1 w/ SUBSCRIBE BUTTON AND IMAGE ------- -->
-  </div>
-
-  <footer class="footer pt-5 mt-2">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-2 mb-4 ms-auto">
-          
-        </div>
-        <div class="col-md-2 col-sm-6 col-6 mb-4">
-          <div>
-            <a class="nav-link" href="about-us" target="_blank"> About Us </a>
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-6 col-6 mb-4">
-          <a class="nav-link" href="contact-us" target="_blank">
-            Contact Us
-          </a>
-        </div>
-        <div class="col-md-2 col-sm-6 col-6 mb-4">
-          <a class="nav-link" href="#" target="_blank">
-            Terms And Condtions
-          </a>
-        </div>
-        <div class="col-md-2 col-sm-6 col-6 mb-4 me-auto">
-          <a class="nav-link" href="#" target="_blank"> Privacy Policy </a>
-        </div>
-        <div class="col-12">
-          <div class="text-center">
-            <p class="text-dark my-4 text-sm font-weight-normal">
-              All rights reserved. Copyright ©
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-              Bre Consulting. Maintained by
-              <a href="https://www.ft8.co.za" target="_blank">FT8.co.za</a>.
-            </p>
-          </div>
-        </div>
-      </div>
+      </section>
+      <!-- -------- END PRE-FOOTER 1 w/ SUBSCRIBE BUTTON AND IMAGE ------- -->
     </div>
-  </footer>
-  <!--   Core JS Files   -->
-  <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-  <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
-  <!--  Plugin for TypedJS, full documentation here: https://github.com/inorganik/CountUp.js -->
-  <script src="../assets/js/plugins/countup.min.js"></script>
-  <!-- Control Center for Material UI Kit: parallax effects, scripts for the example pages etc -->
-  <!--  Google Maps Plugin    -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
-  <script src="../assets/js/material-kit.min.js?v=3.0.4" type="text/javascript"></script>
-  <script>
-    // get the element to animate
-    var element = document.getElementById("count-stats");
-    var elementHeight = element.clientHeight;
 
-    // listen for scroll event and call animate function
+    <footer class="footer pt-5 mt-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 mb-4 ms-auto"></div>
+          <div class="col-md-2 col-sm-6 col-6 mb-4">
+            <div>
+              <a class="nav-link" href="about-us" target="_blank"> About Us </a>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-6 col-6 mb-4">
+            <a class="nav-link" href="contact-us" target="_blank">
+              Contact Us
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-6 col-6 mb-4">
+            <a class="nav-link" href="#" target="_blank">
+              Terms And Condtions
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-6 col-6 mb-4 me-auto">
+            <a class="nav-link" href="#" target="_blank"> Privacy Policy </a>
+          </div>
+          <div class="col-12">
+            <div class="text-center">
+              <p class="text-dark my-4 text-sm font-weight-normal">
+                All rights reserved. Copyright ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                Bre Consulting. Maintained by
+                <a href="https://www.ft8.co.za" target="_blank">FT8.co.za</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--   Core JS Files   -->
+    <script
+      src="../assets/js/core/popper.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="../assets/js/core/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <!--  Plugin for TypedJS, full documentation here: https://github.com/inorganik/CountUp.js -->
+    <script src="../assets/js/plugins/countup.min.js"></script>
+    <!-- Control Center for Material UI Kit: parallax effects, scripts for the example pages etc -->
+    <!--  Google Maps Plugin    -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+    <script
+      src="../assets/js/material-kit.min.js?v=3.0.4"
+      type="text/javascript"
+    ></script>
+    <script>
+      // get the element to animate
+      var element = document.getElementById("count-stats");
+      var elementHeight = element.clientHeight;
 
-    document.addEventListener("scroll", animate);
+      // listen for scroll event and call animate function
 
-    // check if element is in view
-    function inView() {
-      // get window height
-      var windowHeight = window.innerHeight;
-      // get number of pixels that the document is scrolled
-      var scrollY = window.scrollY || window.pageYOffset;
-      // get current scroll position (distance from the top of the page to the bottom of the current viewport)
-      var scrollPosition = scrollY + windowHeight;
-      // get element position (distance from the top of the page to the bottom of the element)
-      var elementPosition =
-        element.getBoundingClientRect().top + scrollY + elementHeight;
+      document.addEventListener("scroll", animate);
 
-      // is scroll position greater than element position? (is element in view?)
-      if (scrollPosition > elementPosition) {
-        return true;
+      // check if element is in view
+      function inView() {
+        // get window height
+        var windowHeight = window.innerHeight;
+        // get number of pixels that the document is scrolled
+        var scrollY = window.scrollY || window.pageYOffset;
+        // get current scroll position (distance from the top of the page to the bottom of the current viewport)
+        var scrollPosition = scrollY + windowHeight;
+        // get element position (distance from the top of the page to the bottom of the element)
+        var elementPosition =
+          element.getBoundingClientRect().top + scrollY + elementHeight;
+
+        // is scroll position greater than element position? (is element in view?)
+        if (scrollPosition > elementPosition) {
+          return true;
+        }
+
+        return false;
       }
 
-      return false;
-    }
-
-    var animateComplete = true;
-    // animate element when it is in view
-    function animate() {
-      // is element in view?
-      if (inView()) {
-        if (animateComplete) {
-          if (document.getElementById("state1")) {
-            const countUp = new CountUp(
-              "state1",
-              document.getElementById("state1").getAttribute("countTo")
-            );
-            if (!countUp.error) {
-              countUp.start();
-            } else {
-              console.error(countUp.error);
+      var animateComplete = true;
+      // animate element when it is in view
+      function animate() {
+        // is element in view?
+        if (inView()) {
+          if (animateComplete) {
+            if (document.getElementById("state1")) {
+              const countUp = new CountUp(
+                "state1",
+                document.getElementById("state1").getAttribute("countTo")
+              );
+              if (!countUp.error) {
+                countUp.start();
+              } else {
+                console.error(countUp.error);
+              }
             }
-          }
-          if (document.getElementById("state2")) {
-            const countUp1 = new CountUp(
-              "state2",
-              document.getElementById("state2").getAttribute("countTo")
-            );
-            if (!countUp1.error) {
-              countUp1.start();
-            } else {
-              console.error(countUp1.error);
+            if (document.getElementById("state2")) {
+              const countUp1 = new CountUp(
+                "state2",
+                document.getElementById("state2").getAttribute("countTo")
+              );
+              if (!countUp1.error) {
+                countUp1.start();
+              } else {
+                console.error(countUp1.error);
+              }
             }
-          }
-          if (document.getElementById("state3")) {
-            const countUp2 = new CountUp(
-              "state3",
-              document.getElementById("state3").getAttribute("countTo")
-            );
-            if (!countUp2.error) {
-              countUp2.start();
-            } else {
-              console.error(countUp2.error);
+            if (document.getElementById("state3")) {
+              const countUp2 = new CountUp(
+                "state3",
+                document.getElementById("state3").getAttribute("countTo")
+              );
+              if (!countUp2.error) {
+                countUp2.start();
+              } else {
+                console.error(countUp2.error);
+              }
             }
+            animateComplete = false;
           }
-          animateComplete = false;
         }
       }
-    }
 
-    if (document.getElementById("typed")) {
-      var typed = new Typed("#typed", {
-        stringsElement: "#typed-strings",
-        typeSpeed: 90,
-        backSpeed: 90,
-        backDelay: 200,
-        startDelay: 500,
-        loop: true,
-      });
-    }
-  </script>
-  <script>
-    if (document.getElementsByClassName("page-header")) {
-      window.onscroll = debounce(function () {
-        var scrollPosition = window.pageYOffset;
-        var bgParallax = document.querySelector(".page-header");
-        var oVal = window.scrollY / 3;
-        bgParallax.style.transform = "translate3d(0," + oVal + "px,0)";
-      }, 6);
-    }
-  </script>
-</body>
-
+      if (document.getElementById("typed")) {
+        var typed = new Typed("#typed", {
+          stringsElement: "#typed-strings",
+          typeSpeed: 90,
+          backSpeed: 90,
+          backDelay: 200,
+          startDelay: 500,
+          loop: true,
+        });
+      }
+    </script>
+    <script>
+      if (document.getElementsByClassName("page-header")) {
+        window.onscroll = debounce(function () {
+          var scrollPosition = window.pageYOffset;
+          var bgParallax = document.querySelector(".page-header");
+          var oVal = window.scrollY / 3;
+          bgParallax.style.transform = "translate3d(0," + oVal + "px,0)";
+        }, 6);
+      }
+    </script>
+  </body>
 </html>
