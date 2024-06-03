@@ -51,7 +51,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-   
+    <script src="https://demos.creative-tim.com/material-kit-pro/assets/js/plugins/typedjs.js" type="text/javascript"></script>
   </head>
 
   <body class="about-us bg-gray-200">
@@ -152,10 +152,13 @@
               <h1 class="text-white mb-4 tracking-in-contract-bck">
                 Bre Consulting
               </h1>
-
-              <p class="text-white opacity-8 lead pe-5 me-5">
-                A New generation for administration!
-              </p>
+              <p class="text-white opacity-8 lead pe-5 me-5">A new generation for <span class="text-white" id="typed"></span></pp>
+              <div id="typed-strings">
+                <h1>Administration</h1>
+                <h1>Specialization</h1>
+                <h1>Technology and Systems</h1>
+              </div>
+             
               <div class="buttons">
                 <a href="#start" class="btn btn-white mt-4"> Get Started</a>
                 <a
@@ -617,36 +620,36 @@
               <p>
                 <span class="me-2 animate__animated animate__heartBeat"
                   >&#9679;</span
-                >Recruiting and retaining SKILLED agents & administrators
+                >Recruiting and retaining <strong>SKILLED</strong> agents & administrators
               </p>
               <p>
-                <span class="me-2">&#9679;</span>Losing MANDATES due to
+                <span class="me-2">&#9679;</span>Losing <strong>MANDATES</strong> due to
                 self-management
               </p>
               <p>
-                <span class="me-2">&#9679;</span>Adoption of TECHNOLOGY &
-                SYSTEMS
+                <span class="me-2">&#9679;</span>Adoption of <strong>TECHNOLOGY &
+                SYSTEMS</strong>
               </p>
-              <p><span class="me-2">&#9679;</span>RISK & IMPACT of lawsuits</p>
+              <p><span class="me-2">&#9679;</span><strong>RISK & IMPACT</strong> of lawsuits</p>
               <p>
                 <span class="me-2">&#9679;</span>Abiding with real estate
-                REGULATIONS
+               <strong> REGULATIONS</strong>
               </p>
               <p>
                 <span class="me-2">&#9679;</span>Cutting EXPENSES and unlocking
-                additional INCOME streams
+                additional <strong>INCOME</strong> streams
               </p>
               <p>
-                <span class="me-2">&#9679;</span>Keeping COMPLIANCE up to date
+                <span class="me-2">&#9679;</span>Keeping <strong>COMPLIANCE</strong> up to date
               </p>
               <p>
-                <span class="me-2">&#9679;</span>Time-consuming ADMINISTRATION
+                <span class="me-2">&#9679;</span>Time-consuming <strong>ADMINISTRATION</strong>
               </p>
               <p>
-                <span class="me-2">&#9679;</span>STANDING OUT above competitors
+                <span class="me-2">&#9679;</span><strong>STANDING OUT</strong> above competitors
               </p>
               <p>
-                <span class="me-2">&#9679;</span>Failing to leverage on REFERALS
+                <span class="me-2">&#9679;</span>Failing to leverage on <strong>REFERALS</strong>
               </p>
             </div>
             <div class="col-md-6">
@@ -934,16 +937,7 @@
         }
       }
 
-      if (document.getElementById("typed")) {
-        var typed = new Typed("#typed", {
-          stringsElement: "#typed-strings",
-          typeSpeed: 90,
-          backSpeed: 90,
-          backDelay: 200,
-          startDelay: 500,
-          loop: true,
-        });
-      }
+     
     </script>
     <script>
       if (document.getElementsByClassName("page-header")) {
@@ -966,6 +960,18 @@
           }
         );
       });
+    </script>
+    <script>
+      if (document.getElementById("typed")) {
+        var typed = new Typed("#typed", {
+          stringsElement: "#typed-strings",
+          typeSpeed: 70,
+          backSpeed: 50,
+          backDelay: 200,
+          startDelay: 500,
+          loop: true
+        });
+      }
     </script>
   </body>
 </html>
