@@ -51,6 +51,27 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <style>
+      .card-body1 {
+        transition: transform 0.2s ease-in-out;
+      }
+      .card-body1:hover {
+        transform: scale(1.05);
+      }
+      .card-container1 {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .card-container1 .col-lg-3 {
+        display: flex;
+        flex-direction: column;
+      }
+      .card-container1 .card {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
   </head>
 
   <body class="about-us bg-gray-200">
@@ -177,10 +198,10 @@
           <div class="col-lg-6 mt-lg-0 mt-5 ps-lg-0 ps-0">
             <div class="p-3 info-horizontal">
               <div
-                class="icon icon-shape bg-gradient-primary shadow-primary text-center animate__animated   animate__delay-3s  animate__repeat-1"
+                class="icon icon-shape bg-gradient-primary shadow-primary text-center animate__animated animate__delay-3s animate__repeat-1"
               >
                 <svg
-                class="p-2"
+                  class="p-2"
                   width=""
                   height=""
                   viewBox="0 0 100 100"
@@ -244,7 +265,7 @@
                 class="icon icon-shape bg-gradient-primary shadow-primary text-center animate__animated animate__delay-4s animate__repeat-1"
               >
                 <svg
-                class="p-2"
+                  class="p-2"
                   width=""
                   height=""
                   viewBox="0 0 100 100"
@@ -388,7 +409,7 @@
                 class="icon icon-shape bg-gradient-primary shadow-primary text-center animate__animated animate__delay-5s animate__repeat-1"
               >
                 <svg
-                class="p-2"
+                  class="p-2"
                   width=""
                   height=""
                   viewBox="0 0 100 100"
@@ -526,75 +547,77 @@
 
       <!-- -------- END Features w/ icons and text on left & gradient title and text on right -------- -->
       <!-- -------- START Features w/ 4 cols w/ title & text & link -------- -->
-
       <section class="py-5">
-        <div class="container">
-          <h2 class="font-weight-normal text-center">
-            Why choose BRE as an partner:
+        <div class="container bg-dark">
+          <h2 class="font-weight-normal text-center text-white pt-3">
+            Why choose BRE as a partner:
           </h2>
-          <div class="row justify-content-start py-5">
-            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-              <h6 class="mb-2 slide-in-blurred-top">
-                Your very own powerhouse team:
-              </h6>
-              <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
-                a comprehensive back-office team comprising of the essential
-                roles vital for any rental business to flourish.
-              </p>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-              <h6 class="mb-2 slide-in-blurred-top">Specialization:</h6>
-              <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
-                Specialized within the rental industry, our team guarantees the
-                essential focus and experience required to ensure your business
-                operates according to best practices.
-              </p>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-              <h6 class="mb-2 slide-in-blurred-top">
-                Technology and system experts:
-              </h6>
-              <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
-                In today's digital era, seizing opportunities is paramount. Our
-                team possesses experience and knowledge of all leading Sales &
-                Rental CRM solutions making sure you are always up to date.
-              </p>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
-              <h6 class="mb-2 slide-in-blurred-top">
-                Reduced Operational and overhead cost:
-              </h6>
-              <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
-                With our tailored services, experience and strategic
-                partnerships. Experience everything you need at a fraction of
-                the usual expense. No more negotiations required.
-              </p>
-            </div>
-            <div class="row justify-content-center py-5">
-              <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+          <div class="row card-container1 justify-content-start py-5">
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4 largecard">
+              <div class="card card-body">
                 <h6 class="mb-2 slide-in-blurred-top">
-                  more compliance and less risk:
+                  Your very own powerhouse team:
                 </h6>
                 <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
-                  Keeping up with regulatory changes can be daunting, as
-                  regulatory bodies tighten their oversight. With out team you
-                  stay proactive and ensure timely compliance with all
-                  regulatory, FIC and audit requirements.
+                  A comprehensive back-office team comprising of the essential roles vital for any rental business to flourish.
                 </p>
               </div>
-              <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4 largecard">
+              <div class="card card-body">
+                <h6 class="mb-2 slide-in-blurred-top">
+                  Specialization:
+                </h6>
+                <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
+                  Specialized within the rental industry, our team guarantees the essential focus and experience required to ensure your business operates according to best practices.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4 largecard">
+              <div class="card card-body">
+                <h6 class="mb-2 slide-in-blurred-top">
+                  Technology and system experts:
+                </h6>
+                <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
+                  In today's digital era, seizing opportunities is paramount. Our team possesses experience and knowledge of all leading Sales & Rental CRM solutions making sure you are always up to date.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4 largecard">
+              <div class="card card-body">
+                <h6 class="mb-2 slide-in-blurred-top">
+                  Reduced Operational and overhead cost:
+                </h6>
+                <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
+                  With our tailored services, experience and strategic partnerships. Experience everything you need at a fraction of the usual expense. No more negotiations required.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row card-container1 justify-content-center py-5">
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4 largecard">
+              <div class="card card-body">
+                <h6 class="mb-2 slide-in-blurred-top">
+                  More compliance and less risk:
+                </h6>
+                <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
+                  Keeping up with regulatory changes can be daunting, as regulatory bodies tighten their oversight. With our team, you stay proactive and ensure timely compliance with all regulatory, FIC, and audit requirements.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4 largecard">
+              <div class="card card-body">
                 <h6 class="mb-2 slide-in-blurred-top">Portfolio Growth:</h6>
                 <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
-                  While we take care of the time consuming adminstrative tasks,
-                  you will have more time and support to focus on growing your
-                  portfolio.
+                  While we take care of the time-consuming administrative tasks, you will have more time and support to focus on growing your portfolio.
                 </p>
               </div>
-              <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+            </div>
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4 largecard">
+              <div class="card card-body">
                 <h6 class="mb-2 slide-in-blurred-top">Investor confidence:</h6>
                 <p class="mb-2 me-4 text-sm slide-in-blurred-bottom">
-                  With our powerhouse team your investors will have peace off
-                  mind knowing that they are in good, capable hands.
+                  With our powerhouse team, your investors will have peace of mind knowing that they are in good, capable hands.
                 </p>
               </div>
             </div>
@@ -951,6 +974,18 @@
           bgParallax.style.transform = "translate3d(0," + oVal + "px,0)";
         }, 6);
       }
+    </script>
+    <script>
+      $(document).ready(function() {
+        $('.card1').hover(
+          function() {
+            $(this).addClass('animate__animated animate__bounce');
+          },
+          function() {
+            $(this).removeClass('animate__animated animate__bounce');
+          }
+        );
+      });
     </script>
   </body>
 </html>
