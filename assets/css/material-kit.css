@@ -99,6 +99,22 @@
   box-sizing: border-box;
 }
 
+
+.fade-in {
+  background: white;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 100px;
+  opacity:0;
+  transform: translateY(20%);
+  transition: all 1s ease-out;
+}
+
+.active {
+  opacity: 4;
+  transform: translateY(0);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -5266,11 +5282,7 @@ fieldset:disabled .btn {
   border-radius: var(--bs-card-border-radius);
  
 }
-.card:not(.card-rotate)
-{ 
-  animation: myAnim 2s ease 0s 1 normal forwards;
 
-}
 .card>hr {
   margin-right: 0;
   margin-left: 0;
