@@ -105,13 +105,13 @@
   height: 300px;
   width: 300px;
   margin-bottom: 50px;
-  opacity:0;
+  opacity:4;
   transform: translateY(20%);
   transition: all 2s ease-out;
 }
 
 .fade-in-fluid {
-  opacity:0;
+  opacity:4;
   transform: translateY(20%);
   transition: all 2s ease-out;
 }
@@ -10715,6 +10715,11 @@ fieldset:disabled .btn {
   color: #fff !important;
 }
 
+.text-black {
+  color: #000 !important;
+}
+
+
 .text-dark-blue {
   color: #1A237E !important;
 }
@@ -21212,7 +21217,7 @@ fieldset:disabled .btn {
 }
 
 .card {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 1px 10px 12px 1px rgba(0, 0, 0, 0.5), 10px 2px 4px 1px rgba(0, 0, 0, 0.06);
 }
 
 .card[data-animation="true"] .card-header {
