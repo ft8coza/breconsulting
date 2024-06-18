@@ -454,7 +454,126 @@
           </div>
         </div>
       </section>
-
+      <section class="pb-5 position-relative bg-gradient-dark ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 text-start mb-5 mt-5">
+              <h3 class="text-white z-index-1 position-relative">
+                Meet the Team
+              </h3>
+              <p class="text-white opacity-8 mb-0"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <div class="card card-profile mt-4 largecard fade-in-fluid">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 mt-n5">
+                    <a href="javascript:;">
+                      <div class="p-3 pe-md-0">
+                        <img
+                          class="w-100 border-radius-md shadow-lg"
+                          src="../assets/img/team-5.jpg"
+                          alt="image"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-12 my-auto">
+                    <div class="card-body ps-lg-0">
+                      <h5 class="mb-0">Business Consultant</h5>
+                      <h6 class="text-info"></h6>
+                      <p class="mb-0">
+                      
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="card card-profile mt-lg-4 mt-5 largecard fade-in-fluid">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 mt-n5">
+                    <a href="javascript:;">
+                      <div class="p-3 pe-md-0">
+                        <img
+                          class="w-100 border-radius-md shadow-lg"
+                          src="../assets/img/team-3.jpg"
+                          alt="image"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-12 my-auto">
+                    <div class="card-body ps-lg-0">
+                      <h5 class="mb-0">Accounts & Administration</h5>
+                      <h6 class="text-info"></h6>
+                      <p class="mb-0">
+                        
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-lg-6 col-12">
+              <div class="card card-profile mt-4 z-index-2 largecard fade-in-fluid">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 mt-n5">
+                    <a href="javascript:;">
+                      <div class="p-3 pe-md-0">
+                        <img
+                          class="w-100 border-radius-md shadow-lg"
+                          src="../assets/img/team-2.jpg"
+                          alt="image"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-12 my-auto">
+                    <div class="card-body ps-lg-0">
+                      <h5 class="mb-0">Attorney</h5>
+                      <h6 class="text-info"></h6>
+                      <p class="mb-0">
+                        
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="card card-profile mt-lg-4 mt-5 z-index-2 largecard fade-in-fluid">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12 mt-n5">
+                    <a href="javascript:;">
+                      <div class="p-3 pe-md-0">
+                        <img
+                          class="w-100 border-radius-md shadow-lg"
+                          src="../assets/img/team-1.jpg"
+                          alt="image"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-12 my-auto">
+                    <div class="card-body ps-lg-0">
+                      <h5 class="mb-0">Auditor</h5>
+                      <h6 class="text-info"></h6>
+                      <p class="mb-0">
+                      
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- END Section with four info areas left & one card right with image and waves -->
       <!--KEEP BELOW AS CLIENT MIGHT ADD SOME STUFF-->
       <section class="pt-3 pb-4" id="count-stats">
@@ -507,7 +626,7 @@
         <div class="container">
           <div class="row mt-6">
             <div class="col-lg-4 col-md-8 largecard">
-              <div class="largecard card card-plain">
+              <div class="largecard card card-plain fade-in-fluid">
                 <div class="card-body">
                   <div class="author">
                     <div class="name">
@@ -534,7 +653,7 @@
             </div>
 
             <div class="col-lg-4 col-md-8 ms-md-auto largecard">
-              <div class="largecard card card-hover-effect bg-gradient-primary">
+              <div class="largecard card card-hover-effect bg-gradient-primary fade-in-fluid">
                 <div class="card-body">
                   <div class="author align-items-center">
                     <div class="name">
@@ -564,7 +683,7 @@
             </div>
 
             <div class="col-lg-4 col-md-8 largecard">
-              <div class="largecard card card-plain">
+              <div class="largecard card card-plain fade-in-fluid">
                 <div class="card-body">
                   <div class="author">
                     <div class="name">
@@ -776,6 +895,25 @@
           loop: true,
         });
       }
+    </script>
+    <script>
+      const elementsa = document.querySelectorAll(".fade-in-fluid");
+      const optionsa = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.4,
+      };
+      const callbacksa = (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("active");
+          }
+        });
+      };
+      let observera = new IntersectionObserver(callbacksa, optionsa);
+      elementsa.forEach((element) => {
+        observera.observe(element);
+      });
     </script>
   </body>
 </html>
