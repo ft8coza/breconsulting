@@ -104,10 +104,10 @@
   background: white;
   height: 300px;
   width: 300px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   opacity:0;
   transform: translateY(20%);
-  transition: all 1s ease-out;
+  transition: all 2s ease-out;
 }
 
 .fade-in-fluid {
