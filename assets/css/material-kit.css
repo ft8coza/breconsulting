@@ -14,13 +14,23 @@
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-*/
-/*!
+
    * Bootstrap  v5.2.3 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
    * Copyright 2011-2022 Twitter, Inc.
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
-   */
+  
+   * { background-color: rgba(255,0,0,.2); }
+   * * { background-color: rgba(0,255,0,.2); }
+   * * * { background-color: rgba(0,0,255,.2); }
+   * * * * { background-color: rgba(255,0,255,.2); }
+   * * * * * { background-color: rgba(0,255,255,.2); }
+   * * * * * * { background-color: rgba(255,255,0,.2); }
+   * * * * * * * { background-color: rgba(255,0,0,.2); }
+   * * * * * * * * { background-color: rgba(0,255,0,.2); }
+   * * * * * * * * * { background-color: rgba(0,0,255,.2); }*/
+
+
 :root {
   --bs-blue: #63b3ed;
   --bs-indigo: #596cff;
@@ -752,6 +762,7 @@ progress {
   .container-sm {
     max-width: 540px;
   }
+ 
 }
 
 @media (min-width: 768px) {
@@ -10468,6 +10479,13 @@ fieldset:disabled .btn {
   padding-top: 16rem !important;
 }
 
+@media (max-width: 576px) {
+  .pt-10 {
+    padding-top: 0rem !important;
+  }
+}
+
+
 .pe-0 {
   padding-right: 0 !important;
 }
@@ -10562,6 +10580,11 @@ fieldset:disabled .btn {
 
 .pb-10 {
   padding-bottom: 12rem !important;
+}
+@media (max-width: 576px) {
+  .pb-10 {
+    padding-bottom: 0rem !important;
+  }
 }
 
 .pb-11 {
