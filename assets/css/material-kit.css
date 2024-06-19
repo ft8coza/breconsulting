@@ -58,7 +58,7 @@
   --bs-secondary: #7b809a;
   --bs-success: #4caf50;
   --bs-info: #08486f;
-  --bs-warning: #fb8c00;
+  --bs-warning: #ea6f66;
   --bs-danger: #f44335;
   --bs-light: #f0f2f5;
   --bs-dark: #344767;
@@ -3851,8 +3851,8 @@ fieldset:disabled .btn {
 
 .btn-warning {
   --bs-btn-color: #000;
-  --bs-btn-bg: #fb8c00;
-  --bs-btn-border-color: #fb8c00;
+  --bs-btn-bg: #ea6f66;
+  --bs-btn-border-color: #ea6f66;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #fc9d26;
   --bs-btn-hover-border-color: #fb981a;
@@ -3862,8 +3862,8 @@ fieldset:disabled .btn {
   --bs-btn-active-border-color: #fb981a;
   --bs-btn-active-shadow: none;
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #fb8c00;
-  --bs-btn-disabled-border-color: #fb8c00;
+  --bs-btn-disabled-bg: #ea6f66;
+  --bs-btn-disabled-border-color: #ea6f66;
 }
 
 .btn-danger {
@@ -4020,19 +4020,19 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-warning {
-  --bs-btn-color: #fb8c00;
-  --bs-btn-border-color: #fb8c00;
+  --bs-btn-color: #ea6f66;
+  --bs-btn-border-color: #ea6f66;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #fb8c00;
-  --bs-btn-hover-border-color: #fb8c00;
+  --bs-btn-hover-bg: #ea6f66;
+  --bs-btn-hover-border-color: #ea6f66;
   --bs-btn-focus-shadow-rgb: 251, 140, 0;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #fb8c00;
-  --bs-btn-active-border-color: #fb8c00;
+  --bs-btn-active-bg: #ea6f66;
+  --bs-btn-active-border-color: #ea6f66;
   --bs-btn-active-shadow: none;
-  --bs-btn-disabled-color: #fb8c00;
+  --bs-btn-disabled-color: #ea6f66;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #fb8c00;
+  --bs-btn-disabled-border-color: #ea6f66;
   --bs-gradient: none;
 }
 
@@ -8316,7 +8316,7 @@ fieldset:disabled .btn {
 }
 
 .link-warning {
-  color: #fb8c00 !important;
+  color: #ea6f66 !important;
 }
 
 .link-warning:hover,
@@ -9010,7 +9010,7 @@ fieldset:disabled .btn {
 }
 
 .border-warning {
-  border-color: #fb8c00 !important;
+  border-color: #ea6f66 !important;
 }
 
 .border-danger {
@@ -10839,7 +10839,7 @@ fieldset:disabled .btn {
 }
 
 .text-warning {
-  color: #fb8c00 !important;
+  color: #ea6f66 !important;
 }
 
 .text-danger {
@@ -10923,7 +10923,7 @@ fieldset:disabled .btn {
 }
 
 .bg-warning {
-  background-color: #fb8c00 !important;
+  background-color: #ea6f66 !important;
 }
 
 .bg-danger {
@@ -20533,7 +20533,7 @@ fieldset:disabled .btn {
 }
 
 .alert-warning {
-  background-image: linear-gradient(195deg, #ffa726 0%, #fb8c00 100%);
+  background-image: linear-gradient(195deg, #ffa726 0%, #ea6f66 100%);
 }
 
 .alert-danger {
@@ -20668,7 +20668,7 @@ fieldset:disabled .btn {
 }
 
 .badge.bg-warning {
-  background: #fb8c00;
+  background: #ea6f66;
 }
 
 .badge.bg-danger {
@@ -21005,15 +21005,15 @@ fieldset:disabled .btn {
 
 .btn-warning:hover,
 .btn.bg-gradient-warning:hover {
-  background-color: #fb8c00;
-  border-color: #fb8c00;
-  box-shadow: 0 14px 26px -12px rgba(251, 140, 0, 0.4),
+  background-color: #ea6f66;
+  border-color: #ea6f66;
+  box-shadow: 0 14px 26px -12px #ea6f66,
     0 4px 23px 0 rgba(251, 140, 0, 0.15), 0 8px 10px -5px rgba(251, 140, 0, 0.2);
 }
 
 .btn-warning .btn.bg-outline-warning,
 .btn.bg-gradient-warning .btn.bg-outline-warning {
-  border: 1px solid #fb8c00;
+  border: 1px solid #ea6f66;
 }
 
 .btn-warning:not(:disabled):not(.disabled).active,
@@ -21022,8 +21022,8 @@ fieldset:disabled .btn {
 .btn.bg-gradient-warning:not(:disabled):not(.disabled).active,
 .btn.bg-gradient-warning:not(:disabled):not(.disabled):active,
 .show > .btn.bg-gradient-warning.dropdown-toggle {
-  color: color-yiq(#fb8c00);
-  background-color: #fb8c00;
+  color: color-yiq(#ea6f66);
+  background-color: #ea6f66;
 }
 
 .btn-warning.focus,
@@ -21041,7 +21041,7 @@ fieldset:disabled .btn {
   background-color: transparent;
   opacity: 0.75;
   box-shadow: none;
-  color: #fb8c00;
+  color: #ea6f66;
 }
 
 .btn-danger,
@@ -21579,7 +21579,7 @@ fieldset:disabled .btn {
 }
 
 .card.card-background.card-background-mask-warning:after {
-  background-image: linear-gradient(195deg, #ffa726 0%, #fb8c00 100%);
+  background-image: linear-gradient(195deg, #ffa726 0%, #ea6f66 100%);
   opacity: 0.85;
 }
 
@@ -23061,7 +23061,7 @@ label,
 }
 
 .bg-gradient-warning {
-  background-image: linear-gradient(195deg, #ffa726 0%, #fb8c00 100%);
+  background-image: linear-gradient(195deg, #ffa726 0%, #ea6f66 100%);
 }
 
 .bg-gradient-danger {
@@ -23192,7 +23192,7 @@ label,
   background-image: radial-gradient(
     200px circle at 50% 70%,
     rgba(251, 140, 0, 0.3) 0,
-    #fb8c00 100%
+    #ea6f66 100%
   );
 }
 
@@ -23414,7 +23414,7 @@ svg.text-warning .color-foreground {
 }
 
 svg.text-warning .color-background {
-  fill: #fb8c00;
+  fill: #ea6f66;
 }
 
 svg.text-danger .color-foreground {
@@ -23523,7 +23523,7 @@ html {
     -45deg,
     #49a3f1,
     #f44335,
-    #fb8c00,
+    #ea6f66,
     #ec407a,
     #344767
   );
@@ -24999,7 +24999,7 @@ hr.horizontal.gray-light {
   + .collapsing
   .nav-item.active
   .nav-link.active {
-  background-image: linear-gradient(195deg, #fb8c00 0%, #fb8c00 100%);
+  background-image: linear-gradient(195deg, #ea6f66 0%, #ea6f66 100%);
 }
 
 .sidenav[data-color="warning"]
@@ -25039,7 +25039,7 @@ hr.horizontal.gray-light {
   + .collapse
   .nav-item
   .nav-link.active {
-  background-image: linear-gradient(195deg, #fb8c00 0%, #fb8c00 100%);
+  background-image: linear-gradient(195deg, #ea6f66 0%, #ea6f66 100%);
 }
 
 .sidenav[data-color="danger"]
@@ -26134,7 +26134,7 @@ body:not(.dark-version)
 .pagination.pagination-warning .page-item.active > .page-link,
 .pagination.pagination-warning .page-item.active > .page-link:focus,
 .pagination.pagination-warning .page-item.active > .page-link:hover {
-  background-image: linear-gradient(195deg, #ffa726 0%, #fb8c00 100%);
+  background-image: linear-gradient(195deg, #ffa726 0%, #ea6f66 100%);
   border: none;
 }
 
@@ -27341,7 +27341,7 @@ p {
 }
 
 .text-gradient.text-warning {
-  background-image: linear-gradient(195deg, #ffa726, #fb8c00);
+  background-image: linear-gradient(195deg, #ffa726, #ea6f66);
 }
 
 .text-gradient.text-danger {
