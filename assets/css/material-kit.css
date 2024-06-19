@@ -96,7 +96,7 @@
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
-  --bs-border-radius: 0.375rem;
+  --bs-border-radius: 0.175rem;
   --bs-border-radius-sm: 0.125rem;
   --bs-border-radius-lg: 0.5rem;
   --bs-border-radius-xl: 0.75rem;
@@ -29310,3 +29310,11 @@ pre[class*="language-"] {
 }
 
 /*# sourceMappingURL=kit-free.css.map */
+.icon-container svg {
+  width: auto;
+  height:1.5em;
+ 
+  fill: white;
+  
+ 
+}
