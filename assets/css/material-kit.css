@@ -114,7 +114,11 @@
   box-sizing: border-box;
 }
 
-
+.round-border {
+  border: 5px solid #ea6f66; /* Adjust the color and width as needed */
+  border-radius: 50%;
+  padding: 20px;
+}
 
 .fade-in {
   background: white;
