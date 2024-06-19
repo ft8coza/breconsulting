@@ -135,7 +135,7 @@
 .fade-in-fluid-card
 {
   background: white;
-  height:85%!important;
+  height:90%!important;
   
   margin-bottom: 50px;
   opacity: 4;
@@ -10080,6 +10080,9 @@ fieldset:disabled .btn {
 .mt-n8 {
   margin-top: -8rem !important;
 }
+.mt-n8-5 {
+  margin-top: -7rem !important;
+}
 
 .mt-n9 {
   margin-top: -10rem !important;
@@ -10222,7 +10225,7 @@ fieldset:disabled .btn {
 }
 
 .ms-n7 {
-  margin-left: -6rem !important;
+  margin-left: -5rem !important;
 }
 
 .ms-n8 {
