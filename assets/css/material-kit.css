@@ -120,6 +120,14 @@
   padding: 20px;
 }
 
+.services{
+  background-color: transparent;
+  border: 2px solid #ea6f66;
+  border-radius: 0.375rem;
+  padding: 10px;
+}
+
+
 .fade-in {
   background: white;
   height: 300px;
@@ -145,6 +153,13 @@
   opacity: 4;
   transform: translateY(20%);
   transition: all 2s ease-out;
+} 
+
+.full-card
+{
+  background: white;
+  height:100%!important;
+ 
 } 
 
 .active {
