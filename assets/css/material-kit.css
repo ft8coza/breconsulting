@@ -21711,7 +21711,7 @@ fieldset:disabled .btn {
   border-radius: 0.5rem;
   background-image: linear-gradient(195deg, #49a3f1, var(--bs-info));
 
-  opacity: 0.85;
+  opacity: 0.75;
 }
 
 .rotating-card-container .card .front {
