@@ -192,7 +192,7 @@ function copyCode(el) {
 // End copy code function
 
 
-window.onload = function() {
+window.onloads = function() {
   // Material Design Input function
   var inputs = document.querySelectorAll('input');
 
