@@ -6,5 +6,6 @@ deployment:
     - /bin/cp -R docs $DEPLOYPATH
     - /bin/cp -R pages $DEPLOYPATH
     - /bin/cp -R sections $DEPLOYPATH
+    - /bin/cp -R second $DEPLOYPATH
     - /bin/cp *.* $DEPLOYPATH
     
